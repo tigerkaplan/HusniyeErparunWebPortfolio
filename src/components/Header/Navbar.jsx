@@ -1,21 +1,23 @@
 //React-router linking
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 // css classes
 import "../Header/Navbar.css";
 
 export const Navbar = () => {
   return (
     <nav>
-      <Link to="/" className="title"> Website </Link>
+      <Link to="/" className="title">
+        Website
+      </Link>
       <ul>
         <li>
-          {" "}<Link to="/About"> About </Link>{" "}
+          <NavLink to="/About"> About </NavLink>
         </li>
         <li>
-          {" "}<Link to="/Portfolio"> Portfolio </Link>{" "}
+          <NavLink to="/Portfolio"> Portfolio </NavLink>
         </li>
         <li>
-          {" "}<Link to="/Contact"> Contact </Link>{" "}
+          <NavLink to="/Contact"> Contact </NavLink>
         </li>
       </ul>
     </nav>

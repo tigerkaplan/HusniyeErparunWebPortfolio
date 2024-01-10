@@ -1,20 +1,23 @@
+import React, { useState } from "react";
+
 //React-router linking
 import { Link, NavLink } from "react-router-dom";
 // css classes
 import "../Header/Navbar.css";
 
 export const Navbar = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
   return (
     <nav>
       <Link to="/" className="title">
         Website
       </Link>
       <div className="menu">
-        <span></span>
-        <span></span>
-        <span></span>
+        <span />
+        <span />
+        <span />
       </div>
-      <ul>
+      <ul className={menuOpen ? "open" : ""}>
         <li>
           <NavLink to="/About"> About </NavLink>
         </li>

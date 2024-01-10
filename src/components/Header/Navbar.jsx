@@ -12,7 +12,12 @@ export const Navbar = () => {
       <Link to="/" className="title">
         Website
       </Link>
-      <div className="menu">
+      <div
+        className="menu"
+        onClick={() => {
+          setMenuOpen(!menuOpen);
+        }}
+      >
         <span />
         <span />
         <span />

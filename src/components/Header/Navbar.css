@@ -32,14 +32,14 @@ nav ul li a {
   margin: 0.5rem;
   border-radius: 0.5rem;
 }
-nav ul li a:not(:active): hover {
+nav ul li a:not(:active):hover {
   background-color: #172554;
 }
 
 /* Mobile css */
 
 nav .menu {
-  display: flex;
+  display: none;
   position: absolute;
   top: 0.75rem;
   right: 0.5rem;
@@ -91,6 +91,6 @@ nav .menu span {
 
 @media (min-width: 768px) {
   nav ul {
-    display: none;
+    display: flex;
   }
 }

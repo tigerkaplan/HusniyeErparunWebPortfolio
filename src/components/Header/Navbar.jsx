@@ -9,6 +9,11 @@ export const Navbar = () => {
       <Link to="/" className="title">
         Website
       </Link>
+      <div className="menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
       <ul>
         <li>
           <NavLink to="/About"> About </NavLink>

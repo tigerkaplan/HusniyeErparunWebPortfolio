@@ -60,20 +60,28 @@ nav .menu span {
   nav .menu {
     display: flex;
   }
+
   nav {
     flex-direction: column;
     align-items: start;
   }
+
   nav ul {
-    /* display: none; */
+    display: none;
     flex-direction: column;
     width: 100%;
     margin-bottom: 0.25rem;
   }
+
   nav ul li {
     width: 100%;
     text-align: center;
   }
+
+  nav ul.open {
+    display: flex;
+  }
+
   nav ul li a {
     margin: 0.2rem 0.5rem;
   }

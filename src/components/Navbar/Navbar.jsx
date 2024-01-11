@@ -1,4 +1,5 @@
-import React, { useState } from "react";  // <-- Import React and useState once
+/* eslint-disable no-unused-vars */
+import React, { useState } from "react"; // <-- Import React and useState once
 
 // React-router linking
 import { Link, NavLink } from "react-router-dom";
@@ -18,9 +19,9 @@ export const Navbar = () => {
           setMenuOpen(!menuOpen);
         }}
       >
-       <span></span>
-        <span></span>
-        <span></span>
+        <span />
+        <span />
+        <span />
       </div>
       <ul className={menuOpen ? "open" : ""}>
         <li>

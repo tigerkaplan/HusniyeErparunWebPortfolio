@@ -1,6 +1,5 @@
 import "./App.css";
-import { Navbar } from "../src/components/Header/Navbar";
-// Navigation
+import { Navbar } from "./components/Navbar/Navbar"; // Navigation
 import { Route, Routes } from "react-router-dom";
 // Pages added to the navigation
 import { Home, About, Portfolio, Contact } from "../src/pages";

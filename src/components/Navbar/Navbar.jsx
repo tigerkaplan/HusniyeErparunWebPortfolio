@@ -1,9 +1,8 @@
-// eslint-disable-next-line no-unused-vars
-import React, { useState } from "react";
+import React, { useState } from "react";  // <-- Import React and useState once
 
-//React-router linking
+// React-router linking
 import { Link, NavLink } from "react-router-dom";
-// css classes
+// CSS classes
 import "../Navbar/Navbar.css";
 
 export const Navbar = () => {
@@ -19,9 +18,9 @@ export const Navbar = () => {
           setMenuOpen(!menuOpen);
         }}
       >
-        <span />
-        <span />
-        <span />
+       <span></span>
+        <span></span>
+        <span></span>
       </div>
       <ul className={menuOpen ? "open" : ""}>
         <li>

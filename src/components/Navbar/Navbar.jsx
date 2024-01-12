@@ -1,6 +1,5 @@
 /* eslint-disable no-unused-vars */
 import React, { useState } from "react"; // <-- Import React and useState once
-
 // React-router linking
 import { Link, NavLink } from "react-router-dom";
 // CSS classes

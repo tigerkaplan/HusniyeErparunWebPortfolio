@@ -1,4 +1,4 @@
-.portfolio {
+.projects {
   width: 100%;
   height: auto;
   display: flex;
@@ -6,7 +6,7 @@
   align-items: center;
   flex-direction: column;
 }
-.portfolio .projectTitle {
+.projects .projectTitle {
   text-align: center;
   color: #3e497a;
   font-size: 60px;
@@ -23,7 +23,7 @@
 
 /* MENU ITEM STYLING */
 
-.PortfolioItem {
+.projectItem {
   border-radius: 15px;
   width: 300px;
   height: 300px;
@@ -31,13 +31,13 @@
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
   text-align: center;
 }
-.PortfolioItem:hover {
+.projectItem:hover {
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
   transition: 0.3s ease-in;
   cursor: pointer;
 }
 
-.PortfolioItem .bgImage {
+.projectItem .bgImage {
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   width: 100%;
@@ -47,7 +47,7 @@
   background-size: cover;
 }
 
-.PortfolioItem h1 {
+.projectItem h1 {
   font-size: 25px;
 }
 

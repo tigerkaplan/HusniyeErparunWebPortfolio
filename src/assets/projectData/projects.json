@@ -1,0 +1,13 @@
+
+{
+    "projects" : [{
+      "name": "My first project",
+      "image": "../projectImages/Proj1.png",
+      "skills": "HTML,CSS,Bootstrap,"
+    },
+    {
+        "name": "My first project",
+        "image": "../",
+        "skills": "HTML,CSS,Bootstrap,"
+      }]
+  }

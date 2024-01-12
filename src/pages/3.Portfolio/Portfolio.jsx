@@ -1,5 +1,5 @@
-import PortfolioItem from '../../components/PortfolioItem/PortfolioItem'
-
+import PortfolioItem from '../../components/PortfolioItem/PortfolioItem';
+import { portfolioList  as projects } from '../../utils/PortfolioList';
 import "./Portfolio.css" 
 
 
@@ -9,10 +9,11 @@ export const Portfolio = () => {
       <h1>Portfolio</h1>
       <div className='projectList'>
         {/* display all over projects */}
-        {portfolio.map(project => (
-          <PortfolioItem key={project.name} image={project.image} />
+        {projects.map((project, idx) => (
+          <PortfolioItem id={idx} key={project.name} image={project.image} />
         ))}
       </div>
     </div>
-  )
-}
+  );
+};
+

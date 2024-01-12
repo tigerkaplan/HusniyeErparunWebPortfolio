@@ -8,6 +8,7 @@ function ProjectItem({ image, name, id }) {
     <div
       className="projectItem"
       onClick={() => {
+        // Navigate page to route
         navigate("/project/" + id);
       }}
     >

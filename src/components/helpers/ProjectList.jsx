@@ -1,8 +1,9 @@
-import Proj1 from "../../assets/projectImages/Proj1.png";
-import Proj2 from "../../assets/projectImages/Proj2.png";
-import Proj3 from "../../assets/projectImages/Proj3.png";
-import Proj4 from "../../assets/projectImages/Proj4.png";
-import Proj5 from "../../assets/projectImages/Proj5.png";
+import Proj1 from "../../assets/projectImages/Proj1.jpg";
+import Proj2 from "../../assets/projectImages/Proj2.jpg";
+import Proj3 from "../../assets/projectImages/Proj3.jpg";
+import Proj4 from "../../assets/projectImages/Proj4.jpg";
+import Proj5 from "../../assets/projectImages/Proj5.jpg";
+import Proj6 from "../../assets/projectImages/Proj6.jpg";
 
 export const projectList = [
   {
@@ -28,6 +29,11 @@ export const projectList = [
   {
     name: "xyz",
     image: Proj5,
+    skills: "HTML,CSS,Bootstrap,"
+  },
+  {
+    name: "xyz",
+    image: Proj6,
     skills: "HTML,CSS,Bootstrap,"
   },
 ];

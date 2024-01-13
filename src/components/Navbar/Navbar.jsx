@@ -3,7 +3,8 @@ import React, { useState } from "react"; // <-- Import React and useState once
 // React-router linking
 import { Link, NavLink } from "react-router-dom";
 // CSS classes
-import "../Navbar/Navbar.css";
+import styles from "./Navbar.module.css";
+import { getImageUrl } from "../../utils";
 
 export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);

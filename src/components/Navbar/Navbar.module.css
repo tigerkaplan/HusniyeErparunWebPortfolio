@@ -67,7 +67,8 @@ nav .menu span {
   }
 
   nav ul {
-    display: none;
+    display: flex;
+    transition: display 0.3s ease; 
     flex-direction: column;
     width: 100%;
     margin-bottom: 0.25rem;

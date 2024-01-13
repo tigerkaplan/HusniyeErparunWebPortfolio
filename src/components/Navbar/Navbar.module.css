@@ -89,9 +89,9 @@ nav .menu span {
 }
 
 /* Desktop CSS - Media Query for larger screens */
-
+/* 
 @media (min-width: 768px) {
   nav ul {
     display: flex;
   }
-}
+} */

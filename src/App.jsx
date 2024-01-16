@@ -1,19 +1,23 @@
-import styles from "./App.module.css";
-import { Navbar } from "./components/Navbar/Navbar"; // Navigation
-import { Route, Routes } from "react-router-dom";
-// Pages added to the navigation
-import { Home, About, Projects, Contact } from "../src/pages";
+import Sidebar from "./components/Sidebar";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Home from "../src/Pages/Home";
+import About from "../src/Pages/About";
+import Project from "../src/Pages/Project";
+import Contact from "../src/Pages/Contact";
+import "./App.css";
+
+
 
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
+    <div>
+      <Sidebar />
       <Routes>
-        <Route path="/" element={<Home />} />          {/* //Hero section */}
-        <Route path="/About" element={<About />} />
-        <Route path="/Portfolio" element={<Projects />} />
-        <Route path="/Contact" element={<Contact />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/project" element={<Project />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </div>
   );

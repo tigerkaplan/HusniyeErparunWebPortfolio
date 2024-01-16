@@ -1,52 +1,16 @@
 [
-    {
-      "title": "Project A",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
-    },
-    {
-      "title": "Project B",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node", "Sass"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
-    },
-    {
-      "title": "Project C",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
-    },
-    {
-        "title": "Project D",
-        "imageSrc": "projects/project.png",
-        "description": "This is a project made to learn the latest languages by building an app.",
-        "skills": ["React", "Express", "Node"],
-        "demo": "https://www.example.com",
-        "source": "https://www.github.com"
-      },
-      {
-        "title": "Project E",
-        "imageSrc": "projects/project.png",
-        "description": "This is a project made to learn the latest languages by building an app.",
-        "skills": ["React", "Express", "Node", "Sass"],
-        "demo": "https://www.example.com",
-        "source": "https://www.github.com"
-      },
-      {
-        "title": "Project F",
-        "imageSrc": "projects/project.png",
-        "description": "This is a project made to learn the latest languages by building an app.",
-        "skills": ["React", "Express", "Node"],
-        "demo": "https://www.example.com",
-        "source": "https://www.github.com"
-      }
-  ]
-  
-  
+  {
+    "name": "Project 1",
+    "description": "Description for Project 1",
+    "link": "https://github.com/yourusername/project1",
+    "image": "./images/P1.jpg",
+    "detailsLink": "/project1-details"
+  },
+  {
+    "name": "Project 2",
+    "description": "Description for Project 2",
+    "link": "https://github.com/yourusername/project2",
+    "image": "./images/P2.jpg",
+    "detailsLink": "/project2-details"
+  }
+]

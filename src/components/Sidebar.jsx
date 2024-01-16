@@ -38,11 +38,11 @@ const Sidenav = () => {
             <span className="pl-4"> About </span>
           </Link>
           <Link
-            to="/project"
+            to="/projects"
             className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover: scale-115 easy-in duration-200"
           >
             <AiOutlineProject size={20} />
-            <span className="pl-4"> Project </span>
+            <span className="pl-4"> Projects </span>
           </Link>
           <Link
             to="/contact"
@@ -72,7 +72,7 @@ const Sidenav = () => {
           </Link>
 
           <Link
-            to="/project"
+            to="/projects"
             className="rounded-full shadow-lg bg-gray-100 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300"
           >
             <AiOutlineProject size={20} />

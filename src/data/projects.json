@@ -1,16 +1,51 @@
 [
   {
-    "name": "Project 1",
-    "description": "Description for Project 1",
-    "link": "https://github.com/yourusername/project1",
-    "image": "./images/P1.jpg",
-    "detailsLink": "/project1-details"
+    "id": 1,
+     "title": "Terminal Website",
+     "imgUrl": "../../public/images/P1.jpg",
+     "stack": ["HTML", "CSS", "JavaScript"],
+     "link": "https://github.com"
   },
   {
-    "name": "Project 2",
-    "description": "Description for Project 2",
-    "link": "https://github.com/yourusername/project2",
-    "image": "./images/P2.jpg",
-    "detailsLink": "/project2-details"
-  }
+    "id": 2,
+     "title": "Developer Portfolio",
+     "imgUrl": "../../public/images/P2.jpg",
+     "stack": ["React", "Tailwind", "Vite"],
+     "link": "https:/github.com"
+  },
+  {
+    "id": 3,
+     "title": "AI Nerf Gun",
+     "imgUrl": "../../public/images/P3.jpg",
+     "stack": ["Python", "C++", "Robotics"],
+     "link": "https://github.com"
+  },
+    {
+      "id": 1,
+       "title": "Terminal Website",
+       "imgUrl": "../../public/images/P1.jpg",
+       "stack": ["HTML", "CSS", "JavaScript"],
+       "link": "https://github.com"
+    },
+    {
+      "id": 2,
+       "title": "Developer Portfolio",
+       "imgUrl": "../../public/images/P2.jpg",
+       "stack": ["React", "Tailwind", "Vite"],
+       "link": "https:/github.com"
+    },
+    {
+      "id": 3,
+       "title": "AI Nerf Gun",
+       "imgUrl": "../../public/images/P3.jpg",
+       "stack": ["Python", "C++", "Robotics"],
+       "link": "https://github.com"
+    },
+    {
+      "id": 2,
+       "title": "Developer Portfolio",
+       "imgUrl": "../../public/images/P2.jpg",
+       "stack": ["React", "Tailwind", "Vite"],
+       "link": "https:/github.com"
+    }
 ]

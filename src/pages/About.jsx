@@ -1,4 +1,3 @@
-import React from "react";
 import { IoCloudDownloadOutline } from "react-icons/io5";
 
 const PDF_FILE_URL = "http://localhost:5173/HusniyeErparun.pdf";

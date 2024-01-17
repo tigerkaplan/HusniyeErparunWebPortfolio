@@ -1,4 +1,3 @@
-import React from "react";
 import { TypeAnimation } from "react-type-animation";
 import { FaGithub } from "react-icons/fa";
 import { Avatar } from "@material-tailwind/react";

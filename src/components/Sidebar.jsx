@@ -4,12 +4,12 @@ import {
   AiOutlineMenu,
   AiOutlineHome,
   AiOutlineProject,
-  AiOutlineMail
 } from "react-icons/ai";
 import { BsPerson } from "react-icons/bs";
 
 const Sidenav = () => {
   const [nav, setNav] = useState(false);
+
 
   const handleNav = () => {
     setNav(!nav);
@@ -44,13 +44,6 @@ const Sidenav = () => {
             <AiOutlineProject size={20} />
             <span className="pl-4"> Projects </span>
           </Link>
-          <Link
-            to="/contact"
-            className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover: scale-115 easy-in duration-200"
-          >
-            <AiOutlineMail size={20} />
-            <span className="pl-4"> Contact </span>
-          </Link>
         </div>
       ) : (
         ""
@@ -76,13 +69,6 @@ const Sidenav = () => {
             className="rounded-full shadow-lg bg-gray-100 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300"
           >
             <AiOutlineProject size={20} />
-          </Link>
-
-          <Link
-            to="/contact"
-            className="rounded-full shadow-lg bg-gray-100 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300"
-          >
-            <AiOutlineMail size={20} />
           </Link>
         </div>
       </div>

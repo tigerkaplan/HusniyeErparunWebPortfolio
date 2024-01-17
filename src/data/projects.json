@@ -1,51 +1,74 @@
 [
   {
-    "id": 1,
-     "title": "Terminal Website",
-     "imgUrl": "../../public/images/P1.jpg",
-     "stack": ["HTML", "CSS", "JavaScript"],
-     "link": "https://github.com"
+    "id": "TT",
+    "title": "Tastefull Twist",
+    "imgUrl": "../../public/images/TT.png",
+    "stack": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Bootstrap",
+      "EmailJs"
+    ],
+    "githubLink": "https://leannecodes.github.io/tasteful-twist/ ",
+    "demoLink": "https://main--heartfelt-gelato-000b69.netlify.app",
+    "description": "The collaborative project involved my contribution to the website's registration process, including the implementation of Sign Up and Sign In options. Additionally, I played a role in creating a subscription button for receiving time-limited email sequences. Furthermore, I facilitated communication by implementing a 'Contact Us' button, allowing both users and guests to reach out."
   },
   {
-    "id": 2,
-     "title": "Developer Portfolio",
-     "imgUrl": "../../public/images/P2.jpg",
-     "stack": ["React", "Tailwind", "Vite"],
-     "link": "https:/github.com"
+    "id": "WA",
+    "title": "Weather AProject",
+    "imgUrl": "../../public/images/WA.jpg",
+    "stack": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "API",
+      "Bootstrap"
+    ],
+    "githubLink": "https://github.com/tigerkaplan/weatherApplication ",
+    "demoLink": "https://tigerkaplan.github.io/weatherApplication/",
+    "description": "The project displays current weather conditions for any location. The application provides weather forecasts for the current day and the next five days. Additionally, users can access location history to review previous locations and retrieve corresponding weather information."
   },
   {
-    "id": 3,
-     "title": "AI Nerf Gun",
-     "imgUrl": "../../public/images/P3.jpg",
-     "stack": ["Python", "C++", "Robotics"],
-     "link": "https://github.com"
+    "id": "PG",
+    "title": "Password Generator",
+    "imgUrl": "../../public/images/PG.jpeg",
+    "stack": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "githubLink": "https://github.com/tigerkaplan/password-generator-with-JS",
+    "demoLink": "https://tigerkaplan.github.io/password-generator-with-JS/",
+    "description": "The password generator assists in creating robust and distinctive passwords suitable for various applications."
   },
-    {
-      "id": 1,
-       "title": "Terminal Website",
-       "imgUrl": "../../public/images/P1.jpg",
-       "stack": ["HTML", "CSS", "JavaScript"],
-       "link": "https://github.com"
-    },
-    {
-      "id": 2,
-       "title": "Developer Portfolio",
-       "imgUrl": "../../public/images/P2.jpg",
-       "stack": ["React", "Tailwind", "Vite"],
-       "link": "https:/github.com"
-    },
-    {
-      "id": 3,
-       "title": "AI Nerf Gun",
-       "imgUrl": "../../public/images/P3.jpg",
-       "stack": ["Python", "C++", "Robotics"],
-       "link": "https://github.com"
-    },
-    {
-      "id": 2,
-       "title": "Developer Portfolio",
-       "imgUrl": "../../public/images/P2.jpg",
-       "stack": ["React", "Tailwind", "Vite"],
-       "link": "https:/github.com"
-    }
+  {
+    "id": "RMG",
+    "title": "ReadMe Generator",
+    "imgUrl": "../../public/images/RMG.jpg",
+    "stack": [
+      "HTML",
+      "CSS",
+      "NodeJs",
+      "JavaScript"
+    ],
+    "githubLink": "https://github.com/tigerkaplan/readme_generator",
+    "demoLink": "https://tigerkaplan.github.io/readme_generator/",
+    "description": "The Readme generator, crafted with NodeJS, is a handy tool for Markdown users, making the creation of polished and straightforward readme files a breeze. Featuring an intuitive interface and powerful functionality, the generator makes the process of documenting projects seamless. Users can easily express project details, provide instructions, and share key information with efficiency. "
+  },
+  {
+    "id": "BP",
+    "title": "Personal CV Portfolio",
+    "imgUrl": "../../public/images/BP.png",
+    "stack": [
+      "HTML",
+      "CSS",
+      "Bootstrap",
+      "JavaScript"
+    ],
+    "link": "https://github.com",
+    "githubLink": "https://github.com/tigerkaplan/bootstrap-portfolio",
+    "demoLink": "https://tigp-portfolio/",
+    "description": "The project showcases the utilization of Bootstrap techniques in crafting a personalized curriculum vitae (CV). Leveraging the capabilities of Bootstrap, it enhances the design and responsiveness of the CV, providing an aesthetically pleasing and user-friendly presentation of one's professional information "
+  }
 ]

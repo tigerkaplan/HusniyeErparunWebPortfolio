@@ -7,7 +7,7 @@ import {
 
 const Footer = () => {
   return (
-    <div className="flex justify-between pt-6 max-w-[200px] w-full mx-auto">
+    <div className=" flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover: scale-115 easy-in duration-200">
       <a
         href="https://github.com/tigerkaplan"
         target="_blank"

@@ -1,6 +1,6 @@
 import {Route, Routes } from "react-router-dom";
 import Sidebar from "./components/Sidebar";
-// import Home from "./Pages/Home";
+import Home from "./pages/Home";
 import About from "./Pages/About";
 import Projects from "./Pages/Projects";
 import "./App.css";
@@ -11,7 +11,7 @@ function App() {
 
         <Sidebar />
         <Routes>
-          <Route path="/" element={<Projects />} />
+          <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
         </Routes>

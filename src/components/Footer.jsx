@@ -7,13 +7,12 @@ import {
 
 const Footer = () => {
   return (
-    <div  className="md:block hidden fixed  shadow-gray-90  top-[25%] z-10 top-4 right-80 m-2 p-4 easy-in duration-100  hover: scale-15">
-
+    <div className="md:block hidden fixed  shadow-gray-90  top-[25%] z-10 top-4 right-80 m-2 p-4 easy-in duration-100  hover: scale-15">
       <a
         href="https://github.com/tigerkaplan"
         target="_blank"
         rel="noopener noreferrer"
-        aria-label="GitHub"  
+        aria-label="GitHub"
         className="w-[] flex justify-center items-center rounded-full shadow-lg bg-gray-90 shadow-gray-400 m-2 p-4 cursor-pointer hover: scale-15 easy-in duration-100"
       >
         <FaGithub className="cursor-pointer" size={30} />

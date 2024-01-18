@@ -27,17 +27,15 @@ export const Home = () => {
           </h1>
           <h2 className="flex sm:text-3xl text-2xl pt-4 text-gray-800 ">
             I`m a software
-              
-          <TypeAnimation
-            sequence={[
-        
-              "softwareDeveloper",
-              1000,
-              "Coder",
-              1000,
-              "graphicDesigner",
-              1000,
-              "marblingArtist"
+            <TypeAnimation
+              sequence={[
+                "softwareDeveloper",
+                1000,
+                "Coder",
+                1000,
+                "graphicDesigner",
+                1000,
+                "marblingArtist"
               ]}
               wrapper="span"
               speed={50}

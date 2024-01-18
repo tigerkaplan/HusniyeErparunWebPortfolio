@@ -5,7 +5,7 @@ const PDF_FILE_URL = "http://localhost:5173/HusniyeErparun.pdf";
 
 const About = () => {
   // Download CV
-  const downloadFileAtURL = (url) => {
+  const downloadFileAtURL = url => {
     const filename = url.split("/").pop();
     const aTag = document.createElement("a");
     aTag.href = url;
@@ -29,8 +29,12 @@ const About = () => {
             <h1 className="sm:text-5 text-5xl font-bold text-center text-gray-800">
               About Husniye
             </h1>
-            <p className="text-2xl font-bold text-center">Experienced at Recruiting</p>
-            <p className="text-xl font-bold text-center">Professional Newbee Front-End Developer</p>
+            <p className="text-2xl font-bold text-center">
+              Experienced at Recruiting
+            </p>
+            <p className="text-xl font-bold text-center">
+              Professional Newbee Front-End Developer
+            </p>
             <p className="text-2xl font-bold text-center">Passionate learner</p>
           </div>
 
@@ -40,6 +44,8 @@ const About = () => {
               size={20}
               onClick={() => downloadFileAtURL(PDF_FILE_URL)}
             />
+
+            <span className="text-right" > <p className="text-right">     Download my CV </p></span>
           </div>
           {/* ----------------------- Download CV Button --------------------------*/}
         </div>

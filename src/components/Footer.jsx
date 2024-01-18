@@ -30,7 +30,7 @@ const Footer = () => {
       </a>
 
       <a
-        href="mailto:husniyeerparun@gmail.com"
+        href="mailto:husniyeerparun@gmail.com?subject= About work"
         aria-label="Email"
         className="w-[] flex justify-center items-center rounded-full shadow-lg bg-gray-90 shadow-gray-400 m-2 p-4 cursor-pointer hover: scale-15 easy-in duration-100"
       >

@@ -1,6 +1,6 @@
 import {Route, Routes } from "react-router-dom";
 import Sidebar from "./components/Sidebar";
-import Home from "./Pages/Home";
+// import Home from "./Pages/Home";
 import About from "./Pages/About";
 import Projects from "./Pages/Projects";
 import "./App.css";

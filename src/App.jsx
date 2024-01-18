@@ -1,8 +1,8 @@
 import {Route, Routes } from "react-router-dom";
 import Sidebar from "./components/Sidebar";
 import Home from "./pages/Home";
-import About from "./Pages/About";
-import Projects from "./Pages/Projects";
+import About from "./pages/About";
+import Projects from "./pages/Projects";
 import "./App.css";
 
 function App() {

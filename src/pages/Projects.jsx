@@ -1,5 +1,5 @@
 import ProjectsItem from "./ProjectsItem";
-import projectsData from "../Data/projects.json";
+import projectsData from "../data/projects.json";
 
 function Projects() {
   return (

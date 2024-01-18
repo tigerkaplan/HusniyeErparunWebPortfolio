@@ -39,13 +39,16 @@ const About = () => {
           </div>
 
           {/* ----------------------- Download CV Button --------------------------*/}
+          <span className="text-right">
+            {" "}<p className="text-center">
+              {" "}<br /> Download my CV{" "}
+            </p>
+          </span>
           <div className="flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover: scale-10 easy-in duration-200">
             <IoCloudDownloadOutline
               size={20}
               onClick={() => downloadFileAtURL(PDF_FILE_URL)}
             />
-
-            <span className="text-right" > <p className="text-right">     Download my CV </p></span>
           </div>
           {/* ----------------------- Download CV Button --------------------------*/}
         </div>

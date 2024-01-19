@@ -15,7 +15,7 @@ export const Home = () => {
 
       <img
   className="w-full h-full object-cover object-left scale-x-[-1]"
-  src= "/PP.jpg" 
+  src= "./assets/PP.jpg" 
   alt="Woman spreading her arms"
 />
       <div className="w-full h-screen absolute top-0 left-0 bg-white/50">
@@ -25,7 +25,7 @@ export const Home = () => {
 variant= "circular" 
 alt="Profile Picture"
 className="hover:z-10 focus:z-10 w-40 h-40  rounded-full mr-4"
-src="/PP.jpg"  
+src="./assets/PP.jpg"  
 />
 {/* Content */}
           <h1 className="sm:text-5 text-4xl font-bold text-gray-800">

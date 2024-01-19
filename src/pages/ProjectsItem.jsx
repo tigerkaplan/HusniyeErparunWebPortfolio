@@ -9,14 +9,14 @@ function ProjectsItem({
   demoLink,
   description
 }) {
+  console.log(imgUrl)
   return (
     <div className="border-2 border-stone-800 gray:border-gray rounded-md overflow-hidden block transition duration-300 ease-in-out">
       {/* Image of the project */}
-      <img
-        src={imgUrl}
-        alt="portfolio"
-        className="w-full h-100 md:h-60 object-cover cursor-pointer rounded-t-md"
-      />
+
+
+<img src = {`/assets/img/${imgUrl}`}/>
+
       <div className="p-4">
         <h3 className="text-lg md:text-xl dark:text-black mb-2 md:mb-3 font-semibold">
           {title}

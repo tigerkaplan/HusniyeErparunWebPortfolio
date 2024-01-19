@@ -20,7 +20,7 @@ const About = () => {
         {/* -------------------background image ------------------------- */}
         <img
           className="w-full h-full object-cover object-left scale-x-[-1] absolute top-0 left-0"
-          src="./assets/bg1.jpg"
+          src="./bg1.jpg"
           alt="ebru"
         />
         <div className="w-full h-screen absolute top-0 left-0 bg-white/60 flex flex-col items-center justify-center">

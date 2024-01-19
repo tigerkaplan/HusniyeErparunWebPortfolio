@@ -26,7 +26,7 @@ export const Home = () => {
             I`m Husniye
           </h1>
           <h2 className="flex sm:text-3xl text-2xl pt-4 text-gray-800 ">
-            I`m a software
+            I`m
             <TypeAnimation
               sequence={[
                 "softwareDeveloper",

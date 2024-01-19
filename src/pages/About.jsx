@@ -1,5 +1,4 @@
 import { IoCloudDownloadOutline } from "react-icons/io5";
-import Footer from "../components/Footer";
 
 const PDF_FILE_URL = "http://localhost:5173/HusniyeErparun.pdf";
 
@@ -54,7 +53,6 @@ const About = () => {
         </div>
         {/* -------------------background image ------------------------- */}
       </div>
-      <Footer />
     </section>
   );
 };

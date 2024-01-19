@@ -29,13 +29,13 @@ export const Home = () => {
             I`m
             <TypeAnimation
               sequence={[
-                "softwareDeveloper",
+                 "a softwareDeveloper",
                 1000,
-                "Coder",
+                "a Coder",
                 1000,
-                "graphicDesigner",
+                "a graphicDesigner",
                 1000,
-                "marblingArtist"
+                "a marblingArtist"
               ]}
               wrapper="span"
               speed={50}

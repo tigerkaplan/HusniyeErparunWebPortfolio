@@ -18,7 +18,7 @@ This project showcases my proficiency in both front-end and backend development.
 * [Questions](#questions)
 
 ## Deployment
-To deploy this project run
+https://husniyeerparunportfolio.netlify.app 
 ```npm install```
 ## Demo
 
@@ -36,7 +36,7 @@ HTML, CSS, JavaScript, React, Tailwind
 ## Usage
 This project can be used Highlighting expertise in front-end languages, this project demonstrates advanced skills in React and other frameworks. The showcase emphasizes versatility and proficiency, illustrating a well-rounded approach to development with a focus on cutting-edge technologies.
 ## Installation
-Install HusniyeErparunWebPortfolio with  npm create vite@latest``` ```npm install``` ```  npm i react-router-dom```  ```npm install react-icons --save``` ```npm i react-type-animation``` ```npm install -D tailwindcss postcss autoprefixer``` ```npx tailwindcss init -p``` ````npm install @headlessui/react @heroicons/react```
+Install HusniyeErparunWebPortfolio with  vite```npm create vite@latest``` npm ```npm install```  React Router ```npm i react-router-dom``` React Icons  ```npm install react-icons --save``` type animation ```npm i react-type-animation``` Tailwind ```npm install -D tailwindcss postcss autoprefixer``` Tailwind css  ```npx tailwindcss init -p``` React hero icons ````npm install @headlessui/react @heroicons/react```
 ## Contributors
 Contributions are always welcome!
 ## Tests

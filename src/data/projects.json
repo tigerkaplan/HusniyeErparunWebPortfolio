@@ -2,7 +2,7 @@
   {
     "id": "TT",
     "title": "Tastefull Twist",
-    "imgUrl": "../../public/images/TT.png",
+    "imgUrl": "./TT.png",
     "stack": [
       "HTML",
       "CSS",
@@ -17,7 +17,7 @@
   {
     "id": "WA",
     "title": "Weather AProject",
-    "imgUrl": "../../public/images/WA.jpg",
+    "imgUrl": "./WA.jpg",
     "stack": [
       "HTML",
       "CSS",
@@ -32,7 +32,7 @@
   {
     "id": "PG",
     "title": "Password Generator",
-    "imgUrl": "../../public/images/PG.jpeg",
+    "imgUrl": "./PG.jpeg",
     "stack": [
       "HTML",
       "CSS",
@@ -45,7 +45,7 @@
   {
     "id": "RMG",
     "title": "ReadMe Generator",
-    "imgUrl": "../../public/images/RMG.jpg",
+    "imgUrl": "./RMG.jpg",
     "stack": [
       "HTML",
       "CSS",
@@ -59,7 +59,7 @@
   {
     "id": "BP",
     "title": "Personal CV Portfolio",
-    "imgUrl": "../../public/images/BP.png",
+    "imgUrl": "./BP.png",
     "stack": [
       "HTML",
       "CSS",
